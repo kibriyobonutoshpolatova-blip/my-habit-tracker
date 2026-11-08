@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌸 My Habit Tracker</h1>
+    <p>Har kuni kichik qadamlar — katta natijalar!</p>
+
+    <div class="input-box">
+      <input type="text" id="habitInput" placeholder="Yangi odat kiriting...">
+      <button onclick="addHabit()">Qo‘shish</button>
+    </div>
+
+    <h2>📅 Bugungi odatlarim</h2>
+    <div id="habitList"></div>
+
+    <h2>📊 Haftalik natija</h2>
+    <div id="stats">Hozircha odatlar yo‘q</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
